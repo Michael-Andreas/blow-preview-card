@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #F4D04E;
+  display: grid;
+  place-content: center;
+  min-height: 100dvh;
+  font-family: "Figtree";
+  color: #111111;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid #111111;
+  max-width: 384px;
+  filter: drop-shadow(8px 8px #000000);
+  margin-inline: 1.5rem;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card:hover h1 {
+  color: #F4D04E;
+}
+
+.tag {
+  background-color: #F4D04E;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0px;
+  width: fit-content;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  margin: 1.5rem 0 0.75rem 0;
+}
+
+.date {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0px;
+  margin: 0.75rem 0 0.75rem 0;
+}
+
+.paragraph {
+  color: #6B6B6B;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0px;
+  margin-bottom: 24px;
+}
+
+.avatar {
+  display: inline-block;
+  width: 32px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+span {
+  margin-left: 0.75rem;
+  vertical-align: middle;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
