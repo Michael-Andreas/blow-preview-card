@@ -24,11 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Screenshot%20Mobile.png)
+![](./assets/images/Screenshot%20Desktop.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://michael-andreas.github.io/blow-preview-card/](https://michael-andreas.github.io/blow-preview-card/)
 
 ## My process
 
@@ -67,4 +68,4 @@ span {
 ## Author
 
 - Website - [Michael Andreas](https://www.michaelandreas.de)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Michael-Andreas](https://www.frontendmentor.io/profile/Michael-Andreas)

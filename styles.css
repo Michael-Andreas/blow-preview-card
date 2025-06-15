@@ -20,7 +20,7 @@ body {
   display: grid;
   place-content: center;
   min-height: 100dvh;
-  font-family: "Figtree";
+  font-family: "Figtree", sans-serif;
   color: #111111;
 }
 
@@ -45,7 +45,7 @@ body {
 .tag {
   background-color: #F4D04E;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 150%;
   letter-spacing: 0px;
   width: fit-content;
@@ -56,7 +56,7 @@ body {
 
 .date {
   font-size: 0.875rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%;
   letter-spacing: 0px;
 }
@@ -66,15 +66,15 @@ h1 {
   font-weight: 800;
   line-height: 150%;
   letter-spacing: 0px;
-  margin: 0.75rem 0 0.75rem 0;
+  margin-block: 0.75rem;
 }
 
 .paragraph {
   color: #6B6B6B;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%;
   letter-spacing: 0px;
-  margin-bottom: 24px;
+  margin-block-end: 24px;
 }
 
 .avatar {
@@ -89,7 +89,7 @@ span {
   margin-left: 0.75rem;
   vertical-align: middle;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 150%;
   letter-spacing: 0px;
 }
