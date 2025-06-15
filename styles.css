@@ -51,7 +51,7 @@ body {
   width: fit-content;
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
-  margin: 1.5rem 0 0.75rem 0;
+  margin: 1.5rem 0 0.75rem;
 }
 
 .date {
@@ -86,7 +86,7 @@ h1 {
 }
 
 span {
-  margin-left: 0.75rem;
+  margin-block-start: 0.75rem;
   vertical-align: middle;
   font-size: 0.875rem;
   font-weight: 800;
